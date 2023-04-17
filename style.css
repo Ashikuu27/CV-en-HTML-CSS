@@ -1,0 +1,100 @@
+h1{
+    font-family: 'SofiaSansSemiCondensed', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h2{
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+p, li{
+    font-family: 'MerriweatherSans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    color: black;
+}
+
+/* header */
+
+#upper_section{
+background-color: #681677;
+justify-content: center;
+}
+
+#moi_petite{
+    width:200px;
+    margin: 20px;
+}
+
+#contenu_upper_section{
+    display: flex;
+}
+
+
+
+/* body */
+
+#container{
+    display: flex;
+    
+}
+
+#section_latérale{
+    background-color: #681677;
+    padding: 15px;
+    width: 300px;
+}
+
+        /* section à propos */
+
+#a_propos{
+    background-color: #681677;
+    padding: 15px;
+    width: 90%;
+    word-wrap: break-word;
+  
+
+}
+
+
+.icon{
+    margin: 0px 10px 0px 0px;
+}
+
+.tel{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+
+
+.adresse{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+.mail{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+.DOB{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
+
+.linkedin{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+    word-wrap: break-word;
+    
+}
+
+
+.voiture{
+    display: flex;
+    margin: 0px 0px 20px 0PX;
+}
