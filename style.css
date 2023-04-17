@@ -1,62 +1,61 @@
 h1{
-    font-family: 'SofiaSansSemiCondensed', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-}
-h2{
-    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-family: 'Big John', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8em;
+    margin-top: -15px;
+    margin-left: 30px;
+    margin-bottom: -5px;
 }
 
-ul{
+h2{
+    font-family: 'Staatliches', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
+
+}
+
+h3{
+    font-family: 'Staatliches', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em;
+
+}
+
+#coordonnees{
+    font-family: 'Staatliches', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em;
     list-style-type: none;
 }
 
-p, li{
-    font-family: 'MerriweatherSans', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+p{
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
 }
 
-a{
-    color: black;
-}
+
 
 /* header */
 
-#upper_section{
-background-color: #681677;
-justify-content: center;
-}
-
-#moi_petite{
-    width:200px;
-    margin: 20px;
-}
-
-#contenu_upper_section{
+header{
     display: flex;
-}
-
-
-
-/* body */
-
-#container{
-    display: flex;
+    align-items: flex-start;
+    
+    flex-wrap: wrap;
     
 }
 
-#section_latérale{
-    background-color: #681677;
-    padding: 15px;
-    width: 300px;
+#photoContainer{
+    background-color: grey;
+    width: 450px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-        /* section à propos */
-
-#a_propos{
-    background-color: #681677;
-    padding: 15px;
-    width: 90%;
-    word-wrap: break-word;
-  
-
+#photoContainer img{
+    width: 380px;
+    border-radius: 70px 0px;
+    
 }
 
 
@@ -97,4 +96,84 @@ justify-content: center;
 .voiture{
     display: flex;
     margin: 0px 0px 20px 0PX;
+}
+
+
+
+/* body */
+
+.trait{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.traitSeparation{
+    width: 1000px;
+    border-top: 1px solid black;
+    text-align: center;
+
+}
+
+/* profil et tel */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.blockGauche {
+    background-color: rgb(191, 191, 191);
+    width: 30%;
+    height: 300px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+
+}
+
+.blockDroit {
+    background-color: rgb(107, 50, 50);
+    width: 30%;
+    height: 300px;
+    margin-right: 100px;
+    padding: 50px;
+   
+    
+
+}
+.profilIcon{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.profil{
+    
+    margin: 0px 0px 20px 0PX;
+
+   
+}
+
+/* BODY PRINCIPAL */
+
+.année{
+    font-size: 1.1em;
+}
+
+.intituley{
+    font-weight: bolder;
+}
+
+.lieuStage{
+    font-variant: small-caps;
+}
+
+.typeExperience
+{
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
 }
