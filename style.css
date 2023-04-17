@@ -1,3 +1,7 @@
+body{
+    padding: 20px;
+}
+
 h1{
     font-family: 'Big John', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 8em;
@@ -58,6 +62,11 @@ header{
     
 }
 
+.infos{
+    font-family: 'Staatliches', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em;
+
+}
 
 .icon{
     margin: 0px 10px 0px 0px;
@@ -126,39 +135,60 @@ header{
 .blockGauche {
     background-color: rgb(191, 191, 191);
     width: 30%;
-    height: 300px;
+    height: 350px;
     margin-left: 100px;
     display: flex;
     flex-direction: column;
     padding: 50px;
-    
+    font-family: 'Staatliches', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em;
+   
 
+}
+
+.blockGauche li{
+    list-style-type: none;
 }
 
 .blockDroit {
     background-color: rgb(107, 50, 50);
     width: 30%;
-    height: 300px;
+    height: 350px;
     margin-right: 100px;
     padding: 50px;
-   
-    
+    text-align: justify;
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-size: 1em;   
 
 }
+
 .profilIcon{
     display: flex;
     justify-content: center;
+    text-align: center;
     
 }
 
 .profil{
-    
-    margin: 0px 0px 20px 0PX;
-
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  
 }
 
 /* BODY PRINCIPAL */
+
+#NWS{
+    display: flex;
+    flex-direction: column;
+}
+
+#NWSCompetences{
+    display: flex;
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
 
 .année{
     font-size: 1.1em;
@@ -176,4 +206,29 @@ header{
 {
     font-family: 'Mulish', Arial, Helvetica, sans-serif;
     font-size: 1.2em;
+}
+
+
+
+.typeProjet{
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+}
+
+.descriptionProjet{
+    display: flex;
+    font-family: 'Mulish', Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    
+}
+
+.descriptionProjet li {
+    list-style-type: square;
+}
+
+/* Skills & languages */
+
+#languages{
+    font-family: 'Staatliches', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em;
 }
