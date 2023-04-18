@@ -228,7 +228,37 @@ header{
 
 /* Skills & languages */
 
-#languages{
+
+
+.skills{
+    display: flex;
+}
+
+.blockDroit2 {
+    background-color: rgb(107, 50, 50);
+    width: 30%;
+    height: 350px;
+    margin-right: 100px;
+    padding: 50px;
+    text-align: justify;
     font-family: 'Staatliches', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 1.7em;
+    font-size: 1.7em; 
+
+}
+
+.blockDroit2 li{
+    list-style-type: none;
+}
+
+/* Hobbies */
+
+#myHobbies{
+    display: flex;
+}
+
+#myHobbies li{
+    list-style-type: none;
+    font-family: 'Mulish', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.7em; 
+
 }
