@@ -1,5 +1,10 @@
 body{
     padding: 20px;
+    text-align: center;
+}
+
+body li{
+    text-align: center;
 }
 
 h1{
@@ -320,3 +325,13 @@ header{
     color: transparent;
 }
   
+/* HOBBIES */
+
+#myHobbies table{
+    font-family: 'Merriweather Sans Light', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em; 
+}
+
+#myHobbies td{
+    padding: 7px;
+}
